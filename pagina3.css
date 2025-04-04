@@ -1,14 +1,28 @@
-body {
+li {
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    color: rgb(21, 0, 255);
+}
+  /* Any button over which the user's pointer is hovering */
+  #subtitle:hover {
+    color: rgb(0, 153, 255);
+    } 
+
+a{
+    color: rgb(255, 0, 0);
+}
+
+
+  body {
     background-color: rgb(100, 98, 98); /* cor do fundo */
     font-family: "Caveat", cursive;
-    background-image: url("https://i.pinimg.com/1200x/2e/d0/e0/2ed0e0da145d51ef1da2e6b44994b0fa.jpg");
-
-}
-
-li {
-    color: aliceblue;
-}
-
-h3{
-    color: aliceblue;
+    background-image: url("https://down-br.img.susercontent.com/file/3617b7b6fc8ac4068763bd23ff5fc015");
+    height: 70vh;
+    width: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
 }

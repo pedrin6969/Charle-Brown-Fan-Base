@@ -7,6 +7,10 @@ h1 {
   color: rgb(0, 0, 0);
   } 
 
+.title {
+  color: red;
+}
+
 
   p {
     color: rgb(38, 38, 38);
@@ -23,11 +27,9 @@ h1 {
   }
 
   body {
-    background-color: rgb(100, 98, 98); /* cor do fundo */
-  }
-
-  body {
     font-family: 'FonteEscolhida', sans-serif;
+    text-align: center;
+    background-color: aliceblue;
   }
   
   
